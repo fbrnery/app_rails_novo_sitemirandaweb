@@ -1,36 +1,64 @@
-<div class="container-flouid">
-  <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="/">
-        <h3>Your Logo</h3>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Member</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Courses</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Blog</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Event</a>
-          </li>
-
+<nav class="navbar navbar-expand-lg bg-black navbar-dark">
+<div class="container-fluid">
+  <a class="navbar-brand" href="#"><h1 class="m-0">
+   <%= image_tag 'logo-miranda-3.png' =%>
+  </h1></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href=""><%= link_to "Home", home_index_path%></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Sobre Nós
+        </a>
+        <ul class="dropdown-menu dropdown-menu-dark">
+          <li><a class="dropdown-item" href=""><%= link_to "Sobre Nós", home_sobrenos_path%></li>
+          <li><hr class="dropdown-divider"></li>
+           <li><a class="dropdown-item" href=""><%= link_to "Skills", home_skills_path%></li>
         </ul>
-        <form class="">
-          <a class="btn btn-outline-primary mr-2" href="#">Login</a>
-          <a class="btn btn-outline-success" href="#">Become member</a>
-        </form>
-
-      </div>
-    </div>
-  </nav>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Portfólio
+        </a>
+        <ul class="dropdown-menu dropdown-menu-dark">
+          <li><a class="dropdown-item" href=""><%= link_to "Sites e Landing Pages em front-end", home_portifolio_frontend_path%></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href=""><%= link_to "Aplicações de web em Ruby on Rails", home_portifolio_ecommerces_path%></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Soluções de Web
+        </a>
+        <ul class="dropdown-menu dropdown-menu-dark">
+        <li><a class="dropdown-item" href=""><%= link_to "Sites e Landing Pages", home_sites_landingpages_path%></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href=""><%= link_to "Ecommerces (Lojas Virtuais)", home_ecommerces_lojas_virtuais_path%></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Marketing Digital
+        </a>
+        <ul class="dropdown-menu dropdown-menu-dark">
+          <li><a class="dropdown-item" href="otimizacao.html">Otimização de sites no SEO</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="ads.html">Google ADS</a></li>
+        </ul>
+      </li>
+    </ul>
+    <form class="d-flex" role="search">
+      <a href="https://api.whatsapp.com/send?phone=5541988503832&"
+        target="_blank"><i
+          class="zap fa-2"></i>  <%= image_tag 'zap.png' =%>
+     </a>
+    </form>
+  </div>
 </div>
+</nav>
+</header>
