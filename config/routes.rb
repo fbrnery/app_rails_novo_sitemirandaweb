@@ -7,6 +7,9 @@ Rails.application.routes.draw do
   get 'home/portifolio_ecommerces'
   get 'home/sites_landingpages'
   get 'home/ecommerces_lojas_virtuais'
+  get 'home/sistemas_de_web'
+
+  
 
 
 
