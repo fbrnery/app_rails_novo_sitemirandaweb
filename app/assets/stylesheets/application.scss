@@ -167,7 +167,6 @@ a {
         flex-wrap: wrap;
         flex-direction: row;
     }
-
     a {
         color: #e9ecef;
         text-decoration: none;
@@ -178,12 +177,50 @@ a {
         margin-right: 0rem;
         font-size: 15px;
     }
+
+    h1, .h1 {
+        font-size: 30px;
+        color: #ffffff;
+        font-family: montserrat;
+        font-weight: bolder;
+    }
+
+    p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 24px;
+        font-weight: bold;
+        color: #ffffff;
+        font-family: montserrat;
+    }
+
   }
   
   @media (min-width: 1200px) {
     .carousel-inner > .carousel-item > img {
-      height: 600px;
+      height: 640px;
     }
+
+    h1, .h1 {
+        font-size: 34px;
+        color: #ffffff;
+        font-family: montserrat;
+        font-weight: bolder;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 24px;
+        font-weight: bold;
+        color: #ffffff;
+        font-family: montserrat;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
   }
   
   @media (min-width: 1400px) {
