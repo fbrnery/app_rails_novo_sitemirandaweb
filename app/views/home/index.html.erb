@@ -1,5 +1,62 @@
-<h1>Teste</h1>
-<h1>Teste</h1>
-<h1>Teste</h1>
-<h1>Teste</h1>
-<h1>Teste</h1>
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       <img src="<%= image_url('design-de-interface.webp')%>" class="d-block w-100" alt="...">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Design de Interfaces</h1>
+            <p class="opacity-75">
+            Projetamos a interface do seu projeto: com técnicas
+            sofisticadas e responsivas usando as melhores práticas de UI.
+            </p>
+            <p><a class="btn btn-lg btn-primary" href="#">Ver mais</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="<%= image_url('banner-5-sites.jpg')%>" class="d-block w-100" alt="...">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Sites e Landing pages</h1>
+            <p>100 % personalizados e responsivos, adaptados a qualquer dispositivo de acesso.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Ver mais</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="<%= image_url('ecommerce3.jpg')%>" class="d-block w-100" alt="...">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Lojas Virtuais</h1>
+            <p>Desenvolvemos seu ecommerce completo, 100 % responsivo.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Ver mais</a></p>
+          </div>
+        </div>
+      </div>
+
+        <div class="carousel-item">
+         <img src="<%= image_url('banner-4-sociais3.jpg')%>" class="d-block w-100" alt="...">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Marketing Digital</h1>
+            <p>Otimização de sites, como as melhores ferramentas do mercado.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Ver mais</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
