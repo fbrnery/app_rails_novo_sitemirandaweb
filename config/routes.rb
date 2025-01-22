@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   get 'home/sites_landingpages'
   get 'home/ecommerces_lojas_virtuais'
   get 'home/sistemas_de_web'
+  get 'home/otimizacao_de_sites'
+  get 'home/google_ads'
 
   
 
