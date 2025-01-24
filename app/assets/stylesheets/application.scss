@@ -107,7 +107,7 @@ a {
     p {
         margin-top: 2rem;
         margin-bottom: 1rem;
-        font-size: 18px;
+      
         display: flex;
         justify-content: space-evenly;
         text-shadow: #ffffff;
@@ -143,9 +143,9 @@ a {
     p {
         margin-top: 1rem;
         margin-bottom: 1rem;
-        font-size: 22px;
+      
         font-weight: bold;
-        color: #ffffff;
+        
         font-family: montserrat;
         display: flex;
         justify-content: space-evenly;
@@ -173,9 +173,9 @@ a {
     p {
         margin-top: 1rem;
         margin-bottom: 1rem;
-        font-size: 18px;
+        
         font-weight: bold;
-        color: #ffffff;
+        
         font-family: montserrat;
         display: flex;
         justify-content: space-evenly;
@@ -202,9 +202,9 @@ a {
     p {
         margin-top: 1rem;
         margin-bottom: 1rem;
-        font-size: 24px;
+        
         font-weight: bold;
-        color: #ffffff;
+        
         font-family: montserrat;
         display: flex;
         justify-content: space-evenly;
@@ -221,7 +221,7 @@ a {
     }
     h1, .h1 {
         font-size: 34px;
-        color: #ffffff;
+        
         font-family: montserrat;
         font-weight: bolder;
         display: flex;
@@ -230,9 +230,9 @@ a {
     p {
         margin-top: 1rem;
         margin-bottom: 1rem;
-        font-size: 24px;
+        
         font-weight: bold;
-        color: #ffffff;
+    
         font-family: montserrat;
         display: flex;
         justify-content: space-evenly;
@@ -241,7 +241,6 @@ a {
       margin-top: 0rem;
       margin-bottom: 0rem;
     }
-
   }
   
   @media (min-width: 1400px) {
@@ -251,7 +250,7 @@ a {
 
     h1, .h1 {
       font-size: 37px;
-      color: #ffffff;
+     
       font-family: montserrat;
       font-weight: bolder;
       display: flex;
@@ -261,17 +260,52 @@ a {
   p {
       margin-top: 1rem;
       margin-bottom: 1rem;
-      font-size: 26px;
       font-weight: bold;
-      color: #ffffff;
       font-family: montserrat;
       display: flex;
       justify-content: space-evenly;
   }
+
   .carousel-caption {
     margin-top: 0rem;
     margin-bottom: 0rem;
     }
   }
 
-/*Carrousel/Fim*/
+  /*Carrousel/Fim*/
+
+  /* Center align the text within the three columns below the carousel */
+
+
+
+/* rtl:begin:ignore */
+
+.marketin {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.marketing .col-lg-4 > img, embed, object, video {
+  border-radius: 10rem;
+  margin: 2rem;
+}
+
+.marketing .col-lg-4 {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.atividades {
+  font-size: 17px;
+  font-family: montserrat;
+  font-weight: 500;
+  display: flex;
+  text-align: center;
+} 
+
+
+
